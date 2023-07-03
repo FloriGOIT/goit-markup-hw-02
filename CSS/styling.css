@@ -1,9 +1,11 @@
-body {font-family: 'Roboto'; sans-serif;}
+body {font-family: 'Roboto';}
+
 .button-list-portofolio {cursor: pointer;}
-li {list-style-type:none;}
+
+li {list-style-type: none;}
 address {font-style: normal;}
 
-.website-logo-link {font-family: 'Raleway';sans-serif;
+.website-logo-link {font-family: 'Raleway';
                     font-size: 26px;
                     font-weight: 700;
                     line-height: 31px;
@@ -14,7 +16,7 @@ address {font-style: normal;}
 .first-part-name {color: #2196F3;}
 .second-part-name {color: #000;}
 
-nav {font-family: Roboto; sans-serif;
+nav {font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -24,6 +26,43 @@ nav {font-family: Roboto; sans-serif;
 .nav-li {
     color: #212121;}
 
+.nav-li-active {color: #2196F3;}
+
 .nav-detailed-contact {color: #757575;}
-9
-.active-link-portofolio {color: #2196F3;}
+.button-list-portofolio {font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 26px;
+                        letter-spacing: 0.03em;
+                        text-align: center;
+                        color: #212121;}
+
+.photo-name {font-family: Roboto;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0.06em;
+            text-align: left;
+            color: #212121;}
+
+.photo-detail {font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #757575;}
+
+footer {background-color:#2F303A;}
+
+.third-part-name {color: #FFFFFF;}
+
+.footer-details {font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #FFFFFF}
+
+.footer-detail-contact {color: #FFFFFF;}
