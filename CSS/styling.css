@@ -5,10 +5,10 @@ main {background-color: #EEEEEE;}
 li {list-style-type: none;}
 address {font-style: normal;}
 
-.studio-page, .portofolio-page {text-decoration:none;
+.studio-link, .portofolio-link {text-decoration:none;
                                 color: #212121}
-.portofolio-page:hover,
-.portofolio-page:focus {color: #2196F3;}
+.portofolio-link:hover,
+.portofolio-link:focus {color: #2196F3;}
 
 .website-logo-link {font-family: 'Raleway';
                     font-size: 26px;
