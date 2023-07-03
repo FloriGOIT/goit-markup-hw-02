@@ -1,0 +1,29 @@
+body {font-family: 'Roboto'; sans-serif;}
+.button-list-portofolio {cursor: pointer;}
+li {list-style-type:none;}
+address {font-style: normal;}
+
+.website-logo-link {font-family: 'Raleway';sans-serif;
+                    font-size: 26px;
+                    font-weight: 700;
+                    line-height: 31px;
+                    letter-spacing: 0.03em;
+                    text-align: left;
+                    text-decoration:none;}
+
+.first-part-name {color: #2196F3;}
+.second-part-name {color: #000;}
+
+nav {font-family: Roboto; sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;}
+
+.nav-li {
+    color: #212121;}
+
+.nav-detailed-contact {color: #757575;}
+9
+.active-link-portofolio {color: #2196F3;}
