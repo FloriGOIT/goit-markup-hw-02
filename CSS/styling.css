@@ -5,6 +5,11 @@ main {background-color: #EEEEEE;}
 li {list-style-type: none;}
 address {font-style: normal;}
 
+.studio-page, .portofolio-page {text-decoration:none;
+                                color: #212121}
+.portofolio-page:hover,
+.portofolio-page:focus {color: #2196F3;}
+
 .website-logo-link {font-family: 'Raleway';
                     font-size: 26px;
                     font-weight: 700;
@@ -30,7 +35,8 @@ nav {font-family: Roboto;
 
 .nav-li {color: #212121;}
 
-.nav-li-active {color: #2196F3;}
+.link-portofolio:hover,
+.button-list-portofolio:focus {background-color: #2196F3; color: #FFFFFF;}
 
 .nav-detailed-contact {color: #757575;}
 .button-list-portofolio {cursor: pointer;
