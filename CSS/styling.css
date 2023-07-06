@@ -31,23 +31,21 @@ nav {font-family: Roboto;
 .button-list-portofolio:hover,
 .button-list-portofolio:focus {background-color: #2196F3; color: #FFFFFF;}
 
+.button-list-portofolio {cursor: pointer;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        text-align:center;
+        color: #212121;
+        background-color: #f5f4fa;}
 
 
 .nav-li {color: #212121;}
 
-.link-portofolio:hover,
-.button-list-portofolio:focus {background-color: #2196F3; color: #FFFFFF;}
 
 .nav-detailed-contact {color: #757575;}
-.button-list-portofolio {cursor: pointer;
-                        font-family: Roboto;
-                        font-size: 16px;
-                        font-weight: 500;
-                        line-height: 1.6;
-                        letter-spacing: 0.03em;
-                        text-align:center;
-                        color: #212121;
-                        background-color: #f5f4fa;}
 
 .photo-name {font-family: Roboto;
             font-size: 18px;
