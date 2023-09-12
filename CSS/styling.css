@@ -1,4 +1,4 @@
-body {font-family: 'Raleway', sans-serif;}
+body {font-family: 'Roboto', sans-serif;}
 ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca si UL global*/
 
 
@@ -8,7 +8,7 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
        --ro400-s16-lh24: normal normal 400 16px/24px Roboto, sans-serif;
        --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
-       --logo-font: normal normal 700 18px/21px inherit;
+       --logo-font: normal normal 700 18px/21px 'Raleway', sans-serif;
        --current-section: #4D5AE5;
        }
  
@@ -26,19 +26,23 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
           border-color:blueviolet;}
 
 /*LOGO decoration*/
-.logo {font:var(--logo-font);
+.logo {font: var(--logo-font);
         text-decoration: none;}
 
 .logo-web {color:#4D5AE5;}
+
 .logo-studio-header  {color: var(--main-nav-color);}
+
 
 /*NAV decoration*/
 .nav-link {text-decoration: none;
            font: var(--ro500-s16-lh24);}
         
 .navigation-pages {list-style-type: none;}
-.navigation-pages a:link {color: var(--main-nav-color);}
 
+.nav-link {color: var(--main-nav-color);}
+.nav-link:active {border-bottom: 1px;
+                  border-style: solid;} /*temporari border*/
 .current {color: var(--current-section);}
 
 
@@ -52,14 +56,16 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
 /*MENU*/
 
 /*MENU BUTTONS*/
-.menu-buttons {list-style-type: none;}
+.menu-buttons {list-style-type: none;
+                cursor: pointer;}
 .buttons-line {margin: 10px;} /*temporary added*/
 
 .buttons-line button {font: var(--ro500-s16-lh24);
                         color: #4D5AE5;
                         border: 1px solid #E7E9FC;
                         border-radius: 4px;
-                        margin: 10px;}
+                        margin: 10px;
+                        cursor: pointer;}
 
 .buttons-line button:hover,
 .buttons-line button:focus {background-color: var(--heighlight-bgcolor);
