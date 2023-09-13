@@ -11,8 +11,8 @@ ul {text-decoration: none;}
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
        --logo-ra700-s18-lh21: normal normal 700 18px/21px 'Raleway', sans-serif;
        --current-section: #4D5AE5;
-       --first-header: normal normal 700 56px/60px Roboto, sans-serif;
-       --second-header: normal normal 700 36px/40px Roboto, sans-serif;}
+       --first-heading: normal normal 700 56px/60px Roboto, sans-serif;
+       --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
  
 /*HEADER/
 
@@ -54,7 +54,7 @@ ul {text-decoration: none;}
         background-color: var(--main-color);
         text-align: center;
         height: 600px;}
-.first-header  {font: var(--first-header);}
+.first-header  {font: var(--first-heading);}
 .order-service-button {font:var(--ro500-s16-lh24);
                         background-color: #4D5AE5;
                         color: white;
@@ -82,7 +82,7 @@ ul {text-decoration: none;}
 /*ALL-BUTTON description*/
 
 .business-info h2, .employees h2 {text-align: center;
-                                  font: var(--second-header);}
+                                  font: var(--second-heading);}
 
 .cards-description {list-style-type: none;}
 
