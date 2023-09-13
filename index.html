@@ -4,89 +4,113 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>WebStudio</title>
-		<link rel = "preconnect" href = "<https://fonts.gstatic.com>">
+		<link rel = "preconnect" href ="https://fonts.gstatic.com">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="../goit-markup-hw/CSS/"/>
+		<link rel="stylesheet" href="./CSS/styling.css"/>
 	</head>
 	<body class="body-webstudio">
-		<header class="header-webstudio">
-			<a href="https://www.figma.com/file/SA0Lfa0GisBG3cOWTCGnxc/Web-Studio-(Version-3.0)-(Copy)?type=design&node-id=296605-3&mode=design&t=U2Tj69TqRG6M8Twm-0">WEBSTUDIO</a>
-			<nav class="menu-navigatoion">
-				<ul class="navigation-pages">
-					<li><a href="index.html" class="nav-link current">Studio</a></li>
-					<li><a href="portfolio.html" class="nav-link">Portofolio</a></li>
-					<li><a href="contacts.html" class="nav-link">Contacts</a></li>
+		<header>
+			<div class="navigation-address">
+				<a class="logo" href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296711-361&mode=design&t=uifqZGDZy3SK6BkO-0"><span class="logo-web">WEB</span><span class="logo-studio-header">STUDIO</span></a>
+				<nav class="navigatoion-menu"> <!-- navigatoion-menu -->
+					<ul class="navigation-pages">
+						<li><a href="index.html" class="nav-link current">Studio</a></li>
+						<li><a href="portfolio.html" class="nav-link" id="curret">Portofolio</a></li>
+						<li><a href="https://www.google.com/" class="nav-link">Contacts</a></li>
+					</ul>
+				</nav>
+				<ul class="header-address"> <!-- header-address -->
+					<li>info@devstudio.com</li>
+					<li>+11 (000) 111-11-11</li>
 				</ul>
-			</nav>
-			<ul class="address-header">
-				<li>info@devstudio.com</li>
-				<li>+11 (000) 111-11-11</li>
-			</ul>
-			<h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-			<button type="button">Order Service</button>
+			</div>
+			<div class="page-buttons">
+				<h1 class="first-header">Effective Solutions for<br>Your Business<br><button class="order-service-button" type="button">Order Service</button></h1>
+			</div>
 		</header>
 		<hr>
 		<main class="main-webstudio">
 			<section class="company-skills">
-				<ul>
+				<ul class="cards-description">
 					<li>
-						<h3>Strategy</h3>
-						<p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+						<div class="card-description">
+							<h3>Strategy</h3>
+							<p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+						</div>
 					</li>
 					<li>
-						<h3>Punctuality</h3>
-						<p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+						<div class="card-description">
+							<h3>Punctuality</h3>
+							<p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+						</div>
 					</li>
 					<li>
-						<h3>Diligence</h3>
-						<p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+						<div class="card-description">
+							<h3>Diligence</h3>
+							<p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+						</div>
 					</li>
 					<li>
-						<h3>Technologies</h3>
-						<p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+						<div class="card-description">
+							<h3>Technologies</h3>
+							<p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+						</div>
 					</li>
 				</ul>
             </section>
 			<section class="business-info">
 				<h2>What are we doing</h2>
-				<ul>
-					<li><img src="./images/1one-desktop.jpg" alt="one-desktop" width="360" height="300"/></li>
-					<li><img src="./images/2phone-and-apps.jpg" alt="phone-and-apps" width="360" height="300"/></li>
-					<li><img src="./images/3laptop-and-phone.jpg" alt="laptop-and-phone" width="360" height="300"/></li>
+				<ul  class="cards-description">
+					<div class="card-description">
+						<li><img src="./images/1one-desktop.jpg" alt="one-desktop" width="360" height="300"/></li>
+					</div>
+					<div class="card-description">
+						<li><img src="./images/2phone-and-apps.jpg" alt="phone-and-apps" width="360" height="300"/></li>
+					</div>
+					<div class="card-description">
+						<li><img src="./images/3laptop-and-phone.jpg" alt="laptop-and-phone" width="360" height="300"/></li>
+					</div>
 				</ul>
 			</section>
 			<section class="employees">
 				<h2>Our Team</h2>
-				<ul>
+				<ul class="cards-description">
 					<li>
-						<img src="./images/4mark-guerrero.jpg" alt="mark-guerrero" width="264" height="260"/>
-						<h3>Mark Guerrero</h3>
-						<h4>Product Designer</h4>
+						<div class="card-description">
+							<img src="./images/4mark-guerrero.jpg" alt="mark-guerrero" width="264" height="260"/>
+							<h3>Mark Guerrero</h3>
+							<h4>Product Designer</h4>
+						</div>
 					</li>
 					<li>
-						<img src="./images/5tom-ford.jpg" alt="tom-ford" width="264" height="260"/>
-						<h3>Tom Ford</h3>
-						<h4>Frontend Developer</h4>
+						<div class="card-description">
+							<img src="./images/5tom-ford.jpg" alt="tom-ford" width="264" height="260"/>
+							<h3>Tom Ford</h3>
+							<h4>Frontend Developer</h4>
+						</div>
 					</li>
 					<li>
-						<img src="./images/6camila-garcia.jpg" alt="camila-garcia" width="264" height="260"/>
-						<h3>Camila Garcia</h3>
-						<h4>Marketing</h4>
+						<div class="card-description">
+							<img src="./images/6camila-garcia.jpg" alt="camila-garcia" width="264" height="260"/>
+							<h3>Camila Garcia</h3>
+							<h4>Marketing</h4>
+						</div>
 					</li>
 					<li>
-						<img src="./images/7daniel-wilson.jpg" alt="aniel-wilson" width="264" height="260"/>
-						<h3>Daniel Wilson</h3>
-						<h4>UI Designer</h4>
+						<div class="card-description">
+							<img src="./images/7daniel-wilson.jpg" alt="aniel-wilson" width="264" height="260"/>
+							<h3>Daniel Wilson</h3>
+							<h4>UI Designer</h4>
+						</div>
 					</li>
 				</ul>
 			</section>
 		</main>
-		<hr>
-		<footer>
-			<a href="https://www.figma.com/file/TwjztGEkwMravGL9pPVt8l/Web-Studio-Homework-Project?type=design&node-id=0-1&mode=design&t=jTYOv7Pr1hhxD0WI-0">WEBSTUDIO</a>
-		    <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+		<footer class="portofolio-footer">
+			<a class="logo" href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296711-361&mode=design&t=uifqZGDZy3SK6BkO-0"><span class="logo-web">WEB</span><span class="logo-studio-footer">STUDIO</span></a>
+			<p class="footer-description">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
 		</footer>
 	</body>
 </html>

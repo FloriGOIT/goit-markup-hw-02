@@ -1,5 +1,5 @@
 body {font-family: 'Roboto', sans-serif;}
-ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca si UL global*/
+ul {text-decoration: none;} 
 
 
 :root {--main-nav-color: #2E2F42;
@@ -10,18 +10,21 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
        --logo-font: normal normal 700 18px/21px 'Raleway', sans-serif;
        --current-section: #4D5AE5;
+       --first-header: normal normal 900 44px/60px Roboto, sans-serif;
        }
  
 /*HEADER/
 
 /*HEADER decoration*/
-.header-portofolio:hover,
-.header-portofolio:focus {border: 3px;
+
+
+.navigation-address:hover,
+.navigation-address:focus {border: 3px;
         border-style: solid;
         border-color:blueviolet;}
 
-.header-portofolio,
-.header-portofolio:active {border: 1px;
+.navigation-address,
+.navigation-address:active {border: 1px;
           border-style: solid;
           border-color:blueviolet;}
 
@@ -53,26 +56,44 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
                     list-style-type: none;}
 .header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
 
+div .first-header {background-color:#2F303A;
+                  height: 600px;}
+
+
+.first-header  {display: block;
+                font: var(--first-header);
+                color: white;
+                text-align: center;
+                width: 100%;
+                background-color: var(--main-nav-color);}
+
 /*MENU*/
 
 /*MENU BUTTONS*/
-.menu-buttons {list-style-type: none;
+.page-buttons {list-style-type: none;
                 cursor: pointer;}
-.buttons-line {margin: 10px;} /*temporary added*/
+
+.order-service-button {font: val(--ro500-s16-lh24);
+                        background-color:#4D5AE5;
+                        color:white;
+                        cursor: pointer;}
+
+.order-service-button:hover,
+.order-service-button:focus {border: 1px solid rgb(150, 23, 86);}
 
 .buttons-line button {font: var(--ro500-s16-lh24);
                         color: #4D5AE5;
                         border: 1px solid #E7E9FC;
                         border-radius: 4px;
-                        margin: 10px;
-                        cursor: pointer;}
+                        cursor: pointer;
+                        text-align: center;}
 
 .buttons-line button:hover,
 .buttons-line button:focus {background-color: var(--heighlight-bgcolor);
                      color: var(--heighlight-color); }
 
 /*ALL-BUTTON description*/
-.button-all-description {list-style-type: none;}
+.cards-description {list-style-type: none;}
 
 .description h3 {font: var(--ro500-s20-lh24);
                 color: var(--main-nav-color);}
