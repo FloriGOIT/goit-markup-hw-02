@@ -49,19 +49,12 @@ ul {text-decoration: none;}
                     list-style-type: none;}
 .header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
 
-.first-header {box-sizing: border-box;
-                background-color:#2F303A;
-                height: 600px;
-                padding: 100px 100px;}
 
-
-.first-header  {display: block;
-                font: var(--first-header);
-                color: white;
-                text-align: center;
-                width: 100%;
-                background-color: var(--main-color);}
-
+.heading {color: white;
+        background-color: var(--main-color);
+        text-align: center;
+        height: 600px;}
+.first-header  {font: var(--first-header);}
 .order-service-button {font:var(--ro500-s16-lh24);
                         background-color: #4D5AE5;
                         color: white;
