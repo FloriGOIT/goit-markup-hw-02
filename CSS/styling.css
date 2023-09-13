@@ -1,40 +1,30 @@
-body {font-family: 'Roboto', sans-serif;}
+body {font-family: 'Roboto', sans-serif;
+        color:var(--main-color)}
 ul {text-decoration: none;} 
 
 
-:root {--main-nav-color: #2E2F42;
+:root {--main-color: #2E2F42;
        --heighlight-bgcolor: #404BBF;
        --heighlight-color: white;
        --ro400-s16-lh24: normal normal 400 16px/24px Roboto, sans-serif;
        --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
-       --logo-font: normal normal 700 18px/21px 'Raleway', sans-serif;
+       --logo-ra700-s18-lh21: normal normal 700 18px/21px 'Raleway', sans-serif;
        --current-section: #4D5AE5;
-       --first-header: normal normal 900 44px/60px Roboto, sans-serif;
-       }
+       --first-header: normal normal 700 56px/60px Roboto, sans-serif;
+       --second-header: normal normal 700 36px/40px Roboto, sans-serif;}
  
 /*HEADER/
 
 /*HEADER decoration*/
 
-
-.navigation-address:hover,
-.navigation-address:focus {border: 3px;
-        border-style: solid;
-        border-color:blueviolet;}
-
-.navigation-address,
-.navigation-address:active {border: 1px;
-          border-style: solid;
-          border-color:blueviolet;}
-
 /*LOGO decoration*/
-.logo {font: var(--logo-font);
+.logo {font: var(--logo-ra700-s18-lh21);
         text-decoration: none;}
 
 .logo-web {color:#4D5AE5;}
 
-.logo-studio-header  {color: var(--main-nav-color);}
+.logo-studio-header  {color: var(--main-color);}
 
 
 /*NAV decoration*/
@@ -43,7 +33,7 @@ ul {text-decoration: none;}
         
 .navigation-pages {list-style-type: none;}
 
-.nav-link {color: var(--main-nav-color);}
+.nav-link {color: var(--main-color);}
 .nav-link:active {border-bottom: 1px;
                   border-style: solid;} /*temporari border*/
 .current {color: var(--current-section);}
@@ -56,8 +46,10 @@ ul {text-decoration: none;}
                     list-style-type: none;}
 .header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
 
-div .first-header {background-color:#2F303A;
-                  height: 600px;}
+.first-header {box-sizing: border-box;
+                background-color:#2F303A;
+                height: 600px;
+                padding: 100px 100px;}
 
 
 .first-header  {display: block;
@@ -65,7 +57,12 @@ div .first-header {background-color:#2F303A;
                 color: white;
                 text-align: center;
                 width: 100%;
-                background-color: var(--main-nav-color);}
+                background-color: var(--main-color);}
+
+.order-service-button {font:var(--ro500-s16-lh24);
+                        background-color: #4D5AE5;
+                        color: white;
+                        cursor: pointer;}
 
 /*MENU*/
 
@@ -73,13 +70,7 @@ div .first-header {background-color:#2F303A;
 .page-buttons {list-style-type: none;
                 cursor: pointer;}
 
-.order-service-button {font: val(--ro500-s16-lh24);
-                        background-color:#4D5AE5;
-                        color:white;
-                        cursor: pointer;}
 
-.order-service-button:hover,
-.order-service-button:focus {border: 1px solid rgb(150, 23, 86);}
 
 .buttons-line button {font: var(--ro500-s16-lh24);
                         color: #4D5AE5;
@@ -93,22 +84,37 @@ div .first-header {background-color:#2F303A;
                      color: var(--heighlight-color); }
 
 /*ALL-BUTTON description*/
+
+.business-info h2, .employees h2 {text-align: center;
+                                  font: var(--second-header);}
+
 .cards-description {list-style-type: none;}
 
-.description h3 {font: var(--ro500-s20-lh24);
-                color: var(--main-nav-color);}
+.card-description-studio,
+.card-description-portofolio {background-color: white;}
 
-.description h4 {font: var(--ro400-s16-lh24);
+.card-description-studio h3 {font: var(--ro500-s20-lh24);
+        color: var(--main-color);}
+
+.card-description-studio h4 {font: var(--ro400-s16-lh24);
+color: #434455;}
+
+.card-description-portofolio h3 {font: var(--ro500-s20-lh24);
+                                color: var(--main-color);}
+
+.card-description-portofolio h4 {font: var(--ro400-s16-lh24);
                  color: #434455;}
 
-.card-description {border-style: solid;
+.card-description-portofolio {border-style: solid;
                    border-width: 1px;
                    border-color: #E7E9FC;
                    width: 360px;
                    margin: 10px 10px;/*temporary added*/}
 
+.employees {background-color: #F4F4FD;}
+
 /*FOOTER*/
-.portofolio-footer {background-color: var(--main-nav-color);}
+.portofolio-footer {background-color: var(--main-color);}
 .logo-web {color:#4D5AE5;
            text-decoration: none;}
 .logo-studio-footer  {color: #F4F4FD;}
