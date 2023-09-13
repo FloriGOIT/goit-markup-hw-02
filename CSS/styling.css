@@ -91,7 +91,7 @@ ul {text-decoration: none;}
 .cards-description {list-style-type: none;}
 
 .card-description-studio,
-.card-description-portofolio {background-color: white;}
+.card-description-portofolio {background-color: white;} 
 
 .card-description-studio h3 {font: var(--ro500-s20-lh24);
         color: var(--main-color);}
